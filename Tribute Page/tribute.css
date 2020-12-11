@@ -1,0 +1,126 @@
+div{
+    text-align:center;
+    font-size:40px;
+    font-family:cursive;  
+    color:white;
+}
+h1{
+    color:white;
+    letter-spacing:20px;
+    font-family:fantasy;
+}
+h2{
+    color:white;
+    
+    font-family:cursive;
+}
+
+@media screen and (min-width: 601px) {
+    #tribute-info {
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    #tribute-info {
+      font-size: 20px;
+    }
+  }
+body{
+    background-color: #485461;
+background-image: grey;
+   color:whitesmoke;
+}
+#img-div{
+    
+    display:grid;
+    grid-template-columns:auto auto;
+    width:70vw;
+    height:70vw;
+    margin-left:auto;
+    margin-right:auto;
+    align-items:center;
+    justify-items:center;
+    opacity:0.9;
+  
+}
+.discography{
+    display:flex;
+    align-content:center;
+    justify-content:center;
+}
+
+#tribute-info{
+ 
+ justify-content: center;
+ text-align:left;
+ line-height:1.5em;
+ margin-left:10vw;
+ margin-right:10vw;
+ 
+ 
+ 
+}
+ 
+
+
+#image{
+    width: 33vw;
+    height:33vw;
+    opacity:0.78;
+   
+}       
+            #main{
+              
+            
+            }
+            
+            #image-caption{
+            text-align:center
+            }
+      #title{
+          text-align:center 
+         
+      }
+      #tribute-link{
+          color:white;
+          
+      }
+     
+     #disco{
+        
+        width: 20vw;
+        height:20vw;
+     }
+
+    .fa{
+        display:flex;
+  text-align: center;
+  justify-content:center;
+  text-decoration: none;
+  
+
+    }
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+        
+
+      }
+     .fa-twitter {
+        background: lightblue;
+        color: white;
+
+     }
+     .fa-youtube {
+        background:rgb(230,33,23);
+        color: white;
+
+     } 
+     .fa-instagram {
+        background:rgb(251,57,88);
+        color: white;
+    
+     } 
+
+     
